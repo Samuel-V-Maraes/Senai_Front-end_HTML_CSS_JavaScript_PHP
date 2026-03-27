@@ -1,0 +1,116 @@
+body{
+    margin: 0 auto;
+    background: blue;
+}
+
+.top_cupom{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background: #EFEFEF;
+}
+
+.menu_info{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    background: #000000;
+}
+
+.menu_info_box{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 45px;
+    /*background: yellow;*/
+}
+
+.menu_info_box_logo{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: auto;
+    height: 20px;
+    background: #FFF;
+    padding: 12.5px;
+}
+
+.img_logo1{
+    float: left;
+    height: 20px;
+}
+
+.menu_info_box_menu{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: auto;
+    height: 45px;
+}
+.m1{
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    color: #fff;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+.m1:hover{
+    color: #F3018D;
+}
+
+.m1_card{
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    color: #fff;
+    padding: 8px 20px;
+    margin: 8px 0px;
+    text-decoration: none;
+    background: #F3018D;
+    border-radius: 20px;
+}
+
+.m1_card:hover{
+    color: black;
+}
+
+.menu{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 145px;
+    text-align: center;
+    background: yellow;
+}
+
+.menu_box{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 145px;
+    background: purple;
+}
+
+.menu_box1{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 85px;
+    background: pink;
+}
+.menu_box_pags{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 60px;
+    background: red;
+}
