@@ -1,8 +1,7 @@
 body{
     margin: 0 auto;
-    background: blue;
+    background: white;
 }
-
 .top_cupom{
     position: relative;
     margin: 0 auto;
@@ -20,7 +19,7 @@ body{
     width: 100%;
     height: 45px;
     text-align: center;
-    background: #000000;
+    background: #222222;
 }
 
 .menu_info_box{
@@ -89,7 +88,7 @@ body{
     width: 100%;
     height: 145px;
     text-align: center;
-    background: yellow;
+    background: white;
 }
 
 .menu_box{
@@ -97,7 +96,7 @@ body{
     margin: 0 auto;
     width: 1024px;
     height: 145px;
-    background: purple;
+    
 }
 
 .menu_box1{
@@ -105,14 +104,13 @@ body{
     margin: 0 auto;
     width: 1024px;
     height: 85px;
-    background: pink;
 }
 .menu_box_pags{
     position: relative;
     margin: 0 auto;
     width: 1024px;
     height: 60px;
-    background: red;
+
 }
 
 .menu_box1_logo, .menu_box1_pesq, .menu_box1_entre, .menu_box1_carrinho{
@@ -123,16 +121,13 @@ body{
     height: 85px;
 }
 
-.menu_box1_logo{
-    background: white;
-}
-
-.menu_box1_pesq{
-    background: orange;
-}
 
 .menu_box1_entre{
-    background: green;
+    background-image: url("../img/avatar.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+
 }
 
 .menu_box1_carrinho{
@@ -156,16 +151,98 @@ body{
 .btpesq{
     height: 34px;
     width: 30px;
-    background: #ff009c;
+    background-color: #ff009c;
     margin: 0;
     float: left;
     border: solid 1px #ff009c;
-    background-image: url("../img/pesquisar.png");
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url("../img/lupa.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
     background-size: 15px 15px;
 }
 
 .menu_box1_pesq form{
     padding: 26px 0px;
+}
+
+.link_entre{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 15px;
+    color: #ccc;
+    float: left;
+    line-height: 85px;
+    margin-left: 50px;
+}
+.box_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 50px;
+    height: 85px;
+    background-image: url("../img/carrinho.png");
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: 30px 30px;
+}
+
+.span{
+ float: left;
+    font-family: arial;
+    font-size: 15px;
+    color: #fff;
+    background: #ff009c;
+    padding: 1px 5px;
+    border-radius: 20px;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.box_texto_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 205px;
+    height: 85px;
+    padding: 27.5px 0px;
+}
+
+.box_texto_car label{
+    font-family: arial;
+    font-size: 15px;
+    color: #666;
+    display: block;
+    
+}
+
+.pags{ 
+    float: left;
+    font-family: arial;
+    font-size: 15px;
+    color: #3d3d3d;
+    padding: 12px 20px;
+    text-decoration: none; 
+    line-height: 40px;
+}
+
+.frete{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 39px;
+    text-align: center;
+    background: #272526;
+}
+
+.banner{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 847px;
+    background-image: url("../img/banner.gif");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
