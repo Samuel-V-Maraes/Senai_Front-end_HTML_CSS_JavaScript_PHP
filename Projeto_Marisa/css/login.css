@@ -1,0 +1,57 @@
+.login{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario h3{
+   font-size: 22px;
+   text-align: left; 
+}
+
+.formulario label{
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+
+.inp_login{
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: solid 1px #666;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.link_esqueceu{
+    font-weight: bold;
+    color: #ff009c;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.bt_entrar{
+    display: block;
+    padding: 10px 0px;
+    width: 100%;
+    background: #999;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+}
