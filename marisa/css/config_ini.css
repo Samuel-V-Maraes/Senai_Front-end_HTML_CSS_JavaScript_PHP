@@ -1,0 +1,613 @@
+body{
+    margin: 0 auto;
+}
+
+.top_cupom{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background: #efefef;
+}
+
+.menu_info{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    background: #000000;
+}
+
+.menu_info_box{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 45px;
+    /*background: yellow;*/
+}
+
+.menu_info_box_logo{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: auto;
+    height: 20px;
+    background: #fff;
+    padding: 12.5px;
+}
+
+.img_logo1{
+    float: left;
+    height: 20px;
+}
+
+.menu_info_box_menu{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: auto;
+    height: 45px;
+}
+
+.mn1{
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    color: #fff;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+.mn1:hover{
+    color: #ff009c;
+}
+
+.mn1_card{
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    background: #ff009c;
+    border-radius: 20px;
+    margin: 8px 0px;
+}
+
+.mn1_card:hover{
+    color: #000;
+}
+
+.menu{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 145px;
+    text-align: center;
+    background: #fff;
+}
+
+.menu_box{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 145px;
+}
+
+.menu_box_1{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 85px;
+}
+
+.menu_box_2{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 60px;
+}
+
+.menu_box_1_logo, .menu_box_1_pesq, .menu_box_1_entre, .menu_box_1_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 256px;
+    height: 85px;
+}
+
+.menu_box_1_logo{
+    background: white;
+}
+
+.menu_box_1_pesq{
+    background: white;
+}
+
+.menu_box_1_entre{
+    background-image: url("../images/avatar.png");
+    background-position: left center; 
+    background-repeat: no-repeat; 
+    background-size: 30px 30px;
+}
+
+.img_logo2{
+    float: left;
+    height: 45px;
+    padding: 20px 0px;
+}
+
+.inp_pesq{
+    font-family: arial;
+    font-size: 14px;
+    color: #333;
+    padding: 8px 5px;
+    border: solid 1px #ff009c;
+    outline: none;
+    float: left;
+}
+
+.btpesq{
+    height: 34px;
+    width: 30px;
+    background-color: #ff009c;
+    margin: 0;
+    float: left;
+    border: solid 1px #ff009c;
+    background-image: url("../images/lupa.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 15px 15px;
+}
+
+.menu_box_1_pesq form{
+    padding: 26px 0px;
+}
+
+.link_entre{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 15px;
+    color: #ccc;
+    float: left;
+    line-height: 85px;
+    margin-left: 50px;
+}
+
+.box_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 50px;
+    height: 85px;
+    background-image: url("../images/carrinho.png");
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: 30px 30px;
+}
+
+.box_car span{
+    float: left;
+    font-family: arial;
+    font-size: 15px;
+    color: #fff;
+    background: #ff009c;
+    padding: 1px 5px;
+    border-radius: 20px;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.box_texto_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 206px;
+    height: 30px;
+    padding: 27.5px 0px;
+}
+
+.box_texto_car label{
+    font-family: arial;
+    font-size: 15px;
+    color: #666;
+    display: block;
+}
+
+.mn2{
+    font-family: arial;
+    font-family: 13px;
+    color: #444;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: 60px;
+}
+
+.frete{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 39px;
+    text-align: center;
+    background-color: #272526;
+    background-image: url("../images/frete.gif");
+}
+
+.banner{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 847px;
+    background-image: url("../images/banner1.gif");
+    background-position: center center; 
+    background-repeat: no-repeat;
+}
+
+.navopc{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+.navopc_box{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+}
+
+.navopc_mn1, .navopc_mn2, .navopc_mn3, .navopc_mn4{
+    line-height: 100px;
+    padding: 20px 40px; 
+    background-position: left center; 
+    background-repeat: no-repeat; 
+    background-size: 30px 30px;
+}
+
+.navopc_mn1{
+    background-image: url("../images/frete.png");
+}
+
+.navopc_mn2{
+    background-image: url("../images/fat.jpg");
+}
+
+.navopc_mn3{
+    background-image: url("../images/troca.png");
+}
+
+.navopc_mn4{
+    background-image: url("../images/card.png");
+}
+
+.navopc_box a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navopc_box a:hover{
+    color: #ff009c;
+}
+
+.navcateg{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 230px;
+}
+
+.navcateg h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navcateg_box{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 11.1%;
+    height: auto;
+    background: #fff;
+    text-align: center;
+}
+
+.navcateg_box a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navcateg_box label{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666;
+}
+
+
+.rodape{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.rodape_box1, .rodape_box2, .rodape_box3{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.rodape_box1{
+    background-color: #797073;
+}
+
+.rodape_box2{
+    background-color: #fff;
+}
+
+.rodape_box3{
+    background: #f2f1ef
+}
+
+.rodape_novidades, .box2_menu, .box3_certificado{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nov1, .nov2{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 512px;
+    height: 100px;    
+    text-align: center;
+}
+
+.nov1 label, .nov2 label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.nov1 button{
+    padding: 8px 15px;
+    font-size: 15px;
+    background-color: #ff009c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nov1 button:hover{
+    background-color: #c90278;
+}
+
+.nov2 a{
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.menu_col1{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 180px;
+    height: auto;
+}
+
+.menu_col2{
+    position: relative;
+    margin: 0 auto;
+    float: right;
+    width: 250px;
+    height: auto;
+}
+
+.sub_tit1{
+    font-size: 16px;
+    color:#ff009c;
+    display: block;
+    text-align: left;
+    margin-top: 20px;  
+    margin-bottom: 10px;  
+}
+
+.link_menu{
+    font-size: 16px;
+    color:#666;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom:10px;
+}
+
+.link_menu:hover{
+    color: #ff009c;
+}
+
+.menu_col2 label{
+    font-size: 16px;
+    color:#666;
+    display: block;
+    text-align: left;
+    margin-top: 20px;  
+    margin-bottom: 10px; 
+    display: block;
+}
+
+.link_ajuda, .link_encontre{
+    display: block;
+    padding: 10px 50px;
+    background-position: left center; 
+    background-repeat: no-repeat; 
+    background-size: 30px 30px;
+    text-decoration: none;
+    color: #999;
+    margin: 10px 0px;
+}
+
+.link_ajuda:hover, .link_encontre:hover{
+    color:#ff009c;
+}
+
+.link_ajuda{
+    background-image: url("../images/ico_ajuda.png");
+}
+
+.link_encontre{
+    background-image: url("../images/ico_localizacao_cinza.png");
+}
+
+.box3_selos, .box3_pag, .box3_end{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.opc3_selos, .form3_Pag{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    line-height: 80px;
+    float: left;
+    padding: 10px 40px;
+    background-position: left center; 
+    background-repeat: no-repeat; 
+    background-size: 30px 30px;
+}
+
+.opc3_selos{
+    background-image: url("../images/ico-seguranca-.png");
+}
+
+.form3_Pag{
+    background-image: url("../images/ico-cartaocredito-footer-.png");
+}
+
+.box3_selos img{
+    float: left;
+}
+
+.box3_end label{
+    font-size: 14px;
+    color: #666;
+}
+
+.box3_end label{
+    color: #333;
+}
+
+.sessao_bn2{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.bn2_box1{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 49%;
+}
+
+.bn2_box1 img, .bn2_box2 img, .sessao_bn1 img{
+    width: 100%;
+}
+
+.bn2_box2{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 49%;
+    margin-left: 2%;
+}
+
+
+.sessao_bn1{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.marcas{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.marcas h3, .marcas label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #444;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.marcas a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.marcas_box, .marcas_box1{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 24%;
+    margin-right: 1%;
+}
+
+.marcas_box1{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width: 25%;
+}
