@@ -1,0 +1,87 @@
+.login{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+}
+
+.formulario h3{
+   font-size: 22px;
+   text-align: left; 
+}
+
+.formulario label{
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+
+.input_nome{
+    float: left;
+}
+
+.inp_login{
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: solid 1px #666;
+    outline: none;
+    width: 330px;
+    margin-bottom: 20px;
+}
+
+.inp_login:focus{
+	border: solid 1px #ff009c;
+}
+
+.link_esqueceu{
+    font-weight: bold;
+    color: #ff009c;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.bt_entrar{
+    display: block;
+    padding: 10px 0px;
+    width: 350px;
+    background: #999;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+}
+
+.formulario b{
+	font-size: 12px;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.link_crie{
+	text-decoration: none;
+    color:#ff009c;
+}
+
+.box_bt_mostrar{
+    float: right;
+    position: absolute;
+    z-index: 1;
+    margin: 3px 0px 0px -35px;
+    cursor: pointer;
+}
