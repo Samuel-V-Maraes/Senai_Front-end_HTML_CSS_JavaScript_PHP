@@ -1,0 +1,249 @@
+.cadastro{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cadastro_box{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: auto;
+}
+
+.cadastro_box1, .cadastro_box2{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 500px;
+    height: auto;
+}
+
+.cadastro_box1{
+    margin-right: 24px;
+}
+
+.form1, .form2{
+    width: 500px;
+}
+
+.form1 h3{
+    font-size: 20px;
+}
+
+.form1 label{
+    font-size: 14px;
+}
+
+.box_form{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 500px;
+    height: auto;
+    padding: 15px 0px;
+}
+
+.box_form span{
+    width: 33%;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.inp_radio{
+    accent-color: #ff009c;
+}
+
+.box_form b{
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+}
+
+.inp_cad1, .inp_cad2, .inp_cad3, .inp_cad4, .inp_cad5{
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    padding: 10px 10px;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+}
+
+.inp_cad1{
+    width: 480px;
+}
+
+.inp_cad:focus{
+    border-color: #ff009c;
+}
+
+.box_form_nasc, .box_form_cpf, .box_form_ddd1, .box_form_celular, .box_form_ddd2, .box_form_tel{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+}
+
+.box_form_nasc{
+    width: 130px;
+    margin-right: 20px;
+}
+
+.inp_cad2{
+    width: 110px;
+}
+
+.box_form_cpf{
+    width: 350px;
+}
+
+.inp_cad3{
+    width: 330px;
+}
+
+.subtit1{
+    font-size: 16px !important;
+    margin-bottom: 10px;
+}
+
+.box_form_ddd1, .box_form_ddd2{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.inp_cad4{
+    width: 30px;
+}
+
+.box_form_celular, .box_form_tel{
+    width: 170px;
+}
+
+.inp_cad5{
+    width: 150px;
+}
+
+.box_form_celular{
+    margin-right: 20px;
+}
+
+.bt_token, .bt_finaliza{
+    width: 100% !important;
+    padding: 10px 0px;
+    background: #acabab;
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bt_finaliza{
+    margin-top: 30px;
+}
+
+.txt_token{
+    font-size: 13px;
+    color: #666666;
+    margin-top: 5px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    float: left;
+}
+
+.cadastro_box3{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 1024px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.termo_cpf, .termo_cnpj{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 1024px;
+    height: auto;
+}
+
+.termo_cnpj label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.termo_cnpj span{
+    width: 33%;
+    float: left;
+}
+
+.termo_cnpj input{
+    accent-color: #ff009c;
+}
+
+.cadastro_box3 label{
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.cadastro_box3 a{
+    color:#ff009c;
+}
+
+.box_bt_mostrar{
+    position: absolute;
+    float: left;
+    z-index: 1;
+    cursor: pointer;
+    margin: -32px 0px 0px 465px;
+    width: 35px;
+}
+
+.inp_ck_termos{
+    accent-color: #ff009c;
+}
+
+.box_form_uf{
+    float: left;
+    width: 170px;
+    margin-right: 20px;
+}
+
+.box_form_trib{
+    float: left;
+    width: 310px;
+}
+
+.inp_cad6{
+    width: 150px;
+    padding: 10px 10px;
+}
+
+.inp_cad7{
+    width: 310px;
+    padding: 10px 10px;
+}
+
+.form1_1, .termo_cnpj{
+    display: none;
+}
+
+.inp_cad1:focus, .inp_cad2:focus, .inp_cad3:focus, .inp_cad4:focus, .inp_cad5:focus, .inp_cad6:focus ,.inp_cad7:focus{
+    border: solid 1px #ff009c;
+}
+
+#pass_oculta1, #pass_oculta2 {
+    display: none;
+}
